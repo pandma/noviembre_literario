@@ -72,7 +72,6 @@
   min-height: 10vh;
   justify-content: center;
   background-color: rgb(0, 0, 0);
-  /* margin-bottom: 0.03%; */
 }
 
 .subNav {
@@ -92,4 +91,55 @@
   width: 100% !important;
   position: relative !important;
   height: unset !important;
+}
+
+.BackImnage1 {
+  width: 100%;
+  height: 80vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  animation: slideBg 50s linear infinite 0s;
+
+  animation-timing-function: ease-in-out;
+  background-image: url(https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664129456/istockphoto-1065067004-612x612_e2bptn.jpg);
+}
+@keyframes slideBg {
+  0% {
+    background-image: url(https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664129456/istockphoto-1065067004-612x612_e2bptn.jpg);
+  }
+  25% {
+    background-image: url(https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664131026/Marginalia_en_Roman_de_la_Rose_q9a4hp.jpg);
+  }
+  50% {
+    background-image: url(https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664129456/istockphoto-1065067004-612x612_e2bptn.jpg);
+  }
+  75% {
+    background-image: url(https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664131026/Marginalia_en_Roman_de_la_Rose_q9a4hp.jpg);
+  }
+  100% {
+    background-image: url(https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664129456/istockphoto-1065067004-612x612_e2bptn.jpg);
+  }
+}
+
+.CardTitle {
+  color: rgb(209, 54, 33);
+  text-align: center;
+  background-color: rgba(256, 256, 256, 0.9);
+  opacity: 0.6;
+  padding: 2rem;
+  border-radius: 4px;
+  border-radius: 25px;
+}
+
+.titleH1 {
+  font-weight: bold;
+}
+
+.bookImage {
+  min-height: 40vh;
+  background-image: url(https://res.cloudinary.com/dzzkeb6xp/image/upload/v1663419149/pexels-min-an-694740_kk70sz.jpg);
+  background-size: cover;
+  background-position: center;
 }

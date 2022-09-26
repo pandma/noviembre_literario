@@ -1,4 +1,5 @@
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 import { Row, Col, Container, Navbar } from "react-bootstrap";
 
 function SubBar() {
@@ -24,7 +25,9 @@ function SubBar() {
               className={styles.subNavRow}
               style={{ justifyContent: "center" }}
             >
-              <Col md={{ span: 3 }}>Master de algerabía</Col>
+              <Col md={{ span: 3 }}>
+                <Link href={"mester"}>Mester de algarabía</Link>
+              </Col>
               <Col md={{ span: 3 }}>Charlas</Col>
               <Col md={{ span: 3 }}>Documentacíon</Col>
             </Row>
