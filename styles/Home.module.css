@@ -8,9 +8,9 @@
   animation: pulse 1.5s linear infinite;
 }
 
-.heart:hover {
+/* .heart:hover {
   animation: pulse 0.5s linear infinite;
-}
+} */
 
 @keyframes pulse {
   0% {
@@ -95,7 +95,7 @@
 
 .BackImnage1 {
   width: 100%;
-  height: 80vh;
+  height: 75vh;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

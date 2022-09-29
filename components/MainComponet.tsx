@@ -9,11 +9,10 @@ const MainComponet = () => {
       <Container fluid className={styles.BackImnage1}>
         <Row
           style={{
-            paddingTop: "10%",
-            paddingLeft: "5%",
+            paddingTop: "7%",
           }}
         >
-          <Col md={5}>
+          <Col md={{ span: 6, offset: 3 }}>
             <MainTitleCard />
           </Col>
         </Row>

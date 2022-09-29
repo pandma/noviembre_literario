@@ -39,7 +39,6 @@ function BGImage() {
     return (
       <div className={styles.Box}>
         <Image
-          // src={`https://source.unsplash.com/${width}x${height}/?nature,water,mountains,landscape`}
           src={`https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664129456/istockphoto-1065067004-612x612_e2bptn.jpg`}
           alt="Picture of the author"
           width={width}

@@ -1,6 +1,6 @@
 import { Row, Col, Container } from "react-bootstrap";
 
-const Description = () => {
+const DescriptionCard = () => {
   <Container fluid>
     <Row>
       <Col md={12}>
@@ -10,4 +10,4 @@ const Description = () => {
   </Container>;
 };
 
-export default Description;
+export default DescriptionCard;

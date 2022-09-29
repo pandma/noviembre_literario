@@ -1,9 +1,11 @@
 import MesterComponet from "../components/MesterComponent";
+import SubBar from "../components/SubBar";
 
 const Mester = () => {
   return (
     <div>
-      <MesterComponet />;
+      <SubBar />
+      <MesterComponet />
     </div>
   );
 };
