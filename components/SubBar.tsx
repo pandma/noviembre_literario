@@ -13,11 +13,10 @@ function SubBar() {
                 style={{
                   fontSize: "2em",
                   color: "white",
-                  paddingBottom: "1%",
                   textAlign: "center",
                 }}
               >
-                Noviembre literario
+                <Link href={"main"}> Noviembre literario</Link>
               </Navbar.Brand>
             </Row>
             <hr />
@@ -28,8 +27,12 @@ function SubBar() {
               <Col md={{ span: 3 }}>
                 <Link href={"mester"}>Mester de algarabía</Link>
               </Col>
-              <Col md={{ span: 3 }}>Charlas</Col>
-              <Col md={{ span: 3 }}>Documentacíon</Col>
+              <Col md={{ span: 3 }}>
+                <Link href={"speach"}>Charlas</Link>
+              </Col>
+              <Col md={{ span: 3 }}>
+                <Link href={"docs"}>Documentacíon</Link>
+              </Col>
             </Row>
           </Container>
         </Navbar.Offcanvas>

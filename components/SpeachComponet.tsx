@@ -1,13 +1,13 @@
 import { Row, Col, Container } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
-import CardId from "./CardId";
-import { MILA, PEDRO, CARLOS, MANOLO } from "../data/cv";
+import SpeachCard from "./SpaechCard";
+import { SPEACH1, SPEACH2, SPEACH3, SPEACH4 } from "../data/speachInfo";
 
-const MesterComponet = () => {
+const SpeachComponet = () => {
   return (
     <Container fluid>
       <Row
-        className={styles.bookImage}
+        className={styles.speachImage}
         style={{
           paddingTop: "5%",
         }}
@@ -26,11 +26,11 @@ const MesterComponet = () => {
               backgroundColor: "aliceblue",
             }}
           >
-            <h1>Mester de Algerabia</h1>
+            <h1>Charlas</h1>
           </div>
         </Col>
       </Row>
-      <Row
+      {/* <Row
         style={{
           paddingTop: "3%",
         }}
@@ -58,14 +58,14 @@ const MesterComponet = () => {
             seria ante un juego?»
           </p>
         </Col>
-      </Row>
+      </Row> */}
       <Row
         style={{
           paddingTop: "3%",
         }}
       >
         <Col md={{ span: 6, offset: 3 }}>
-          <h2 style={{ textAlign: "center" }}>Componenetes del grupo</h2>
+          <h2 style={{ textAlign: "center" }}>Fechas</h2>
         </Col>
         <Col
           md={{ span: 6, offset: 3 }}
@@ -73,7 +73,7 @@ const MesterComponet = () => {
             padding: "2% 0% 2% 0%",
           }}
         >
-          <CardId {...MILA} />
+          <SpeachCard {...SPEACH1} />
         </Col>
         <Col
           md={{ span: 6, offset: 3 }}
@@ -81,7 +81,7 @@ const MesterComponet = () => {
             padding: "2% 0% 2% 0%",
           }}
         >
-          <CardId {...PEDRO} />
+          <SpeachCard {...SPEACH2} />
         </Col>
         <Col
           md={{ span: 6, offset: 3 }}
@@ -89,7 +89,7 @@ const MesterComponet = () => {
             padding: "2% 0% 2% 0%",
           }}
         >
-          <CardId {...CARLOS} />
+          <SpeachCard {...SPEACH3} />
         </Col>
         <Col
           md={{ span: 6, offset: 3 }}
@@ -97,10 +97,11 @@ const MesterComponet = () => {
             padding: "2% 0% 2% 0%",
           }}
         >
-          <CardId {...MANOLO} />
+          <SpeachCard {...SPEACH4} />
         </Col>
       </Row>
     </Container>
   );
 };
-export default MesterComponet;
+
+export default SpeachComponet;

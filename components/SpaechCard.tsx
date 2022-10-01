@@ -1,12 +1,7 @@
 import { Row, Col, Container } from "react-bootstrap";
+import { Speach } from "../interface/interface";
 
-type props = {
-  name: string;
-  img: string;
-  text: string;
-};
-
-const CardId = ({ name, img, text }: props) => {
+const SpeachCard = ({ date, title, owner }: Speach) => {
   return (
     <Container>
       <Row>
@@ -18,23 +13,26 @@ const CardId = ({ name, img, text }: props) => {
         >
           <div
             style={{
-              height: "20vh",
-              width: "20vh",
+              height: "10vh",
+              width: "10vh",
               borderRadius: "50%",
               backgroundPosition: "center center",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
-              backgroundImage: `url(${img})`,
+              backgroundImage: `url(https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664644409/iconmonstr-microphone-13-240_1_tweub1.png)`,
             }}
           />
         </Col>
         <Col md={{ span: 9 }}>
-          <h3>{name} </h3>
+          <h3>{date} </h3>
           <hr />
-          <p>{text} </p>
+          <p>{title} </p>
+          <br />
+          <p>{owner} </p>
         </Col>
       </Row>
     </Container>
   );
 };
-export default CardId;
+
+export default SpeachCard;
