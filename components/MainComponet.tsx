@@ -2,6 +2,7 @@ import { Row, Col, Container } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
 import React from "react";
 import MainTitleCard from "./MainTitleCard";
+import PierCard from "./PierCard";
 
 const MainComponet = () => {
   return (
@@ -72,6 +73,15 @@ const MainComponet = () => {
               peregrino y socarrón se pasea por la propia obra fílmica de
               Pasolini.
             </p>
+          </Col>
+        </Row>
+        <Row
+          style={{
+            marginTop: "6%",
+          }}
+        >
+          <Col>
+            <PierCard />
           </Col>
         </Row>
       </Container>

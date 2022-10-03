@@ -16,7 +16,9 @@ function SubBar() {
                   textAlign: "center",
                 }}
               >
-                <Link href={"main"}> Noviembre literario</Link>
+                <Link href={"main"}>
+                  <h1 id={styles.TITLE}>Noviembre literario</h1>
+                </Link>
               </Navbar.Brand>
             </Row>
             <hr />

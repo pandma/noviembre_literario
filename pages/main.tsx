@@ -1,6 +1,7 @@
 import MainComponet from "../components/MainComponet";
 import SubBar from "../components/SubBar";
 import Head from "next/head";
+import Footer from "../components/Footer";
 
 const Main = () => {
   return (
@@ -12,6 +13,7 @@ const Main = () => {
       </Head>
       <SubBar />
       <MainComponet />
+      <Footer />
     </div>
   );
 };

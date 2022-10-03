@@ -1,6 +1,7 @@
 import SubBar from "../components/SubBar";
 import SpeachComponet from "../components/SpeachComponet";
 import Head from "next/head";
+import Footer from "../components/Footer";
 
 const Speach = () => {
   return (
@@ -12,6 +13,7 @@ const Speach = () => {
       </Head>
       <SubBar />
       <SpeachComponet />
+      <Footer />
     </div>
   );
 };

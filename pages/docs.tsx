@@ -1,6 +1,7 @@
 import SubBar from "../components/SubBar";
 import DocsComponent from "../components/DocsComponent";
 import Head from "next/head";
+import Footer from "../components/Footer";
 
 const Docs = () => {
   return (
@@ -12,6 +13,7 @@ const Docs = () => {
       </Head>
       <SubBar />
       <DocsComponent />
+      <Footer />
     </div>
   );
 };

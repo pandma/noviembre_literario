@@ -1,3 +1,12 @@
+#TITLE {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display SC", serif;
+  background-color: black;
+  color: white;
+}
+
 .imageCenter {
   display: flex;
   align-items: center;
@@ -97,12 +106,12 @@
   backface-visibility: hidden;
   animation: slideBg 50s linear infinite 0s;
   animation-timing-function: ease-in-out;
-  background-image: url(https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664129456/istockphoto-1065067004-612x612_e2bptn.jpg);
+  background-image: url(https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664820302/unnamed_1_ma539b.jpg);
 }
 
 @keyframes slideBg {
   0% {
-    background-image: url(https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664129456/istockphoto-1065067004-612x612_e2bptn.jpg);
+    background-image: url(https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664820302/unnamed_1_ma539b.jpg);
   }
   25% {
     background-image: url(https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664641376/istockphoto-829775428-612x612_xqqxez.jpg);
@@ -111,7 +120,7 @@
     background-image: url(https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664641373/istockphoto-466268089-612x612_dffglb.jpg);
   }
   75% {
-    background-image: url(https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664131026/Marginalia_en_Roman_de_la_Rose_q9a4hp.jpg);
+    background-image: url(https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664820302/unnamed_1_ma539b.jpg);
   }
   100% {
     background-image: url(https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664129456/istockphoto-1065067004-612x612_e2bptn.jpg);
@@ -126,10 +135,6 @@
   padding: 2rem;
   border-radius: 4px;
   border-radius: 25px;
-}
-
-.titleH1 {
-  font-weight: bold;
 }
 
 .bookImage {
@@ -163,4 +168,18 @@
   opacity: 0.8;
   zoom: 1;
   background-color: aliceblue;
+}
+
+.HalfImage1 {
+  min-height: 60vh;
+  background-image: url(https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664820319/unnamed_5_ahiz1h.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.HalfImage2 {
+  min-height: 60vh;
+  background-image: url(https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664820326/unnamed_6_ijxrqg.jpg);
+  background-size: cover;
+  background-position: center;
 }

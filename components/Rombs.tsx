@@ -57,26 +57,3 @@ const Rombs = () => {
 };
 
 export default Rombs;
-
-{
-  /* <Col md={{ span: 3, offset: 4 }}>
-<div className={styles.flex1}>
-  <Image
-    src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664042531/rhombus_kournd.png"
-    alt="Picture of the author"
-    width={500}
-    height={600}
-  />
-</div>
-</Col>
-<Col md={{ span: 3, offset: 0 }}>
-<div className={styles.flex2}>
-  <Image
-    src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664042531/rhombus_kournd.png"
-    alt="Picture of the author"
-    width={500}
-    height={600}
-  />
-</div>
-</Col> */
-}

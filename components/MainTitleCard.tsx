@@ -16,7 +16,7 @@ const MainTitleCard = () => {
         backgroundColor: "aliceblue",
       }}
     >
-      <h1 className={styles.titleH1}>Centenario Pier Paolo Pasolini</h1>
+      <h1>Centenario Pier Paolo Pasolini</h1>
     </div>
   );
 };

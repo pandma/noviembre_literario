@@ -1,6 +1,7 @@
 import MesterComponet from "../components/MesterComponent";
 import SubBar from "../components/SubBar";
 import Head from "next/head";
+import Footer from "../components/Footer";
 
 const Mester = () => {
   return (
@@ -12,6 +13,7 @@ const Mester = () => {
       </Head>
       <SubBar />
       <MesterComponet />
+      <Footer />
     </div>
   );
 };
