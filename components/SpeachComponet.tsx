@@ -14,6 +14,7 @@ const SpeachComponet = () => {
       >
         <Col md={{ span: 6, offset: 3 }}>
           <div
+            id={styles.mainTitle}
             style={{
               color: "black",
               textAlign: "center",
@@ -30,35 +31,7 @@ const SpeachComponet = () => {
           </div>
         </Col>
       </Row>
-      {/* <Row
-        style={{
-          paddingTop: "3%",
-        }}
-      >
-        <Col md={{ span: 6, offset: 3 }}>
-          <h2 style={{ textAlign: "center" }}>Introducción</h2>
-          <hr />
-          <p
-            style={{
-              textAlign: "justify",
-              textJustify: "inter-word",
-              fontSize: "1.3em",
-            }}
-          >
-            El Mester de Algarabía es un grupo de Profesores-Tutores del ámbito
-            de las Humanidades.
-            <br />
-            Más que un grupo, el Mester de Algarabía es una actitud ante la
-            profesión docente y ante la vida: prefieren el diálogo a la clase
-            magistral; la devoción antes que la obligación y carecen de
-            complejos al reconocer que existe el mismo desafío científico al
-            contemplar un átomo que un verso. Como en los viejos mesteres, la
-            cultura se divulga mejor en la algarabía del camino. Y de acuerdo
-            con el beodo Molinero de Chaucer: «¿por qué adoptar una actitud
-            seria ante un juego?»
-          </p>
-        </Col>
-      </Row> */}
+
       <Row
         style={{
           paddingTop: "3%",

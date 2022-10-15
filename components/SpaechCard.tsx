@@ -1,17 +1,21 @@
 import { Row, Col, Container } from "react-bootstrap";
 import { Speach } from "../interface/interface";
+import styles from '../styles/Home.module.css';
+
 
 const SpeachCard = ({ date, title, owner }: Speach) => {
   return (
     <Container>
       <Row>
         <Col
-          md={{ span: 3 }}
+          xs={{ span: 12, offset: 0 }}
+          md={{ span: 3, offset: 0 }}
           style={{
             margin: "2% 0% 2% 0%",
           }}
         >
           <div
+            id={styles.phoneCenter}
             style={{
               height: "10vh",
               width: "10vh",
@@ -23,7 +27,9 @@ const SpeachCard = ({ date, title, owner }: Speach) => {
             }}
           />
         </Col>
-        <Col md={{ span: 9 }}>
+        <Col md={{ span: 9, offset: 0 }}
+          xs={{ span: 11, offset: 1 }}
+        >
           <h3>{date} </h3>
           <hr />
           <p>{title} </p>

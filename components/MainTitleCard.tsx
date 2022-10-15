@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 const MainTitleCard = () => {
   return (
     <div
+      id={styles.mainTitle}
       style={{
         color: "black",
         textAlign: "center",

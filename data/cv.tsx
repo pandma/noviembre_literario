@@ -1,8 +1,11 @@
 import { Profile } from "../interface/interface";
 const MILA: Profile = {
   name: "Mila Martin Martinez",
-  text: "Profe",
-  img: "https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664626057/download_nvgxgz.jpg",
+  text: `Licenciada en Filología Italiana y Antropología Social y cultural, profesora-tutora 
+  de la UNED y profesora de Lengua Castellana y Literatura en el IES Castilla de Guadalajara. 
+  Trabajos de investigación sobre la narratividad en la literatura italiana, Natalia Ginzburg y 
+  la didáctica de las lenguas.`,
+  img: "https://res.cloudinary.com/dzzkeb6xp/image/upload/v1665829570/IMG-6260_dissqd.jpg",
 };
 const PEDRO: Profile = {
   name: "Pedro Aguilar Serrano",
@@ -40,7 +43,7 @@ const MANOLO: Profile = {
   congresos internacionales; también ha presentado ponencias y publicado sobre la
   enseñanza del inglés, la educación hospitalaria y para la salud o la obra de William
   Shakespeare.`,
-  img: "https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664626057/download_nvgxgz.jpg",
+  img: "https://res.cloudinary.com/dzzkeb6xp/image/upload/v1665829453/WhatsApp_Image_2022-10-14_at_21.57.12_y28ix0.jpg",
 };
 
 export { MILA, PEDRO, CARLOS, MANOLO };

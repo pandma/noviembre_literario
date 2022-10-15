@@ -13,7 +13,7 @@ const DocsComponent = () => {
         }}
       >
         <Col md={{ span: 6, offset: 3 }}>
-          <div className={styles.subTitle}>
+          <div className={styles.subTitle} id={styles.mainTitle}>
             <h1>Documentación</h1>
           </div>
         </Col>

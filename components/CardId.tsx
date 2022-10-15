@@ -1,4 +1,6 @@
 import { Row, Col, Container } from "react-bootstrap";
+import styles from '../styles/Home.module.css';
+
 
 type props = {
   name: string;
@@ -17,6 +19,7 @@ const CardId = ({ name, img, text }: props) => {
           }}
         >
           <div
+            id={styles.phoneCenterCard}
             style={{
               height: "20vh",
               width: "20vh",
@@ -28,7 +31,7 @@ const CardId = ({ name, img, text }: props) => {
             }}
           />
         </Col>
-        <Col md={{ span: 9 }}>
+        <Col lg={{ span: 9, offset: 0 }} sm={{ span: 10, offset: 1 }} >
           <h3>{name} </h3>
           <hr />
           <p>{text} </p>

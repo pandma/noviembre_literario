@@ -6,7 +6,7 @@ const PierCard = () => {
     <Container fluid>
       <Row>
         <Col className={styles.HalfImage1} />
-        <Col>
+        <Col id={styles.showNon}>
           <div
             style={{
               paddingTop: "20%",
@@ -20,7 +20,7 @@ const PierCard = () => {
               calidad de vida del hombre”.
             </p>
             <hr />
-            <span>PIER PAOLO.</span>
+            <span>PIER PAOLO PASOLINI</span>
           </div>
         </Col>
       </Row>
@@ -34,18 +34,19 @@ const PierCard = () => {
             style={{
               paddingTop: "20%",
               paddingLeft: "6%",
+              paddingBottom: "10%",
               maxWidth: "80%",
               alignContent: "flex-end",
               textAlign: "end",
             }}
           >
-            <p style={{}}>
+            <p >
               “La Iglesia no puede ser reaccionaria, no puede ser parte del
               poder y no puede aceptar las reglas formales y autoritarias de la
               convivencia”.
             </p>
             <hr />
-            <span>PIER PAOLO.</span>
+            <span>PIER PAOLO PASOLINI</span>
           </div>
         </Col>
         <Col className={styles.HalfImage2} />

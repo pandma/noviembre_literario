@@ -14,6 +14,7 @@ const MesterComponet = () => {
       >
         <Col md={{ span: 6, offset: 3 }}>
           <div
+            id={styles.mainTitle}
             style={{
               color: "black",
               textAlign: "center",
