@@ -9,7 +9,7 @@ function SubBar() {
         <Navbar.Offcanvas>
           <Container fluid>
             <Row style={{ maxHeight: "5vh" }}>
-              <Col sm={{ span: 12, offset: 0 }} md={{ span: 3, offset: 0 }} id={styles.inscribe} style={{
+              <Col sm={{ span: 12, offset: 0 }} md={{ span: 4, offset: 0 }} id={styles.inscribe} style={{
                 paddingLeft: "3%"
               }}>
                 <Navbar.Brand style={{
@@ -21,8 +21,8 @@ function SubBar() {
                   </Link>
                 </Navbar.Brand>
               </Col>
-              <Col sm={{ span: 12, offset: 0 }} md={{ span: 4, offset: 1 }} className={styles.TopPhone} style={{
-                paddingLeft: "4%"
+              <Col sm={{ span: 12, offset: 0 }} md={{ span: 4, offset: 0 }} className={styles.TopPhone} style={{
+                textAlign: "center"
               }}>
                 <Navbar.Brand id={styles.navBrand}>
                   <Link href={"main"}>
@@ -30,19 +30,20 @@ function SubBar() {
                   </Link>
                 </Navbar.Brand>
               </Col>
+              <Col md={{ span: 4, offset: 0 }} />
             </Row>
             <hr />
             <Row
               className={styles.subNavRow}
               style={{ justifyContent: "center" }}
             >
-              <Col md={{ span: 3, offset: 0 }} sm={{ span: 10, offset: 2 }} xs={{ span: 10, offset: 2 }}>
+              <Col md={{ span: 3, offset: 0 }} sm={{ span: 10, offset: 2 }} xs={{ span: 10, offset: 2 }} style={{ textAlign: "center" }}>
                 <Link href={"mester"}>Mester de algarabía</Link>
               </Col>
-              <Col md={{ span: 3, offset: 0 }} sm={{ span: 10, offset: 2 }} xs={{ span: 10, offset: 2 }}>
+              <Col md={{ span: 3, offset: 0 }} sm={{ span: 10, offset: 2 }} xs={{ span: 10, offset: 2 }} style={{ textAlign: "center" }}>
                 <Link href={"speach"}>Charlas</Link>
               </Col>
-              <Col md={{ span: 3, offset: 0 }} sm={{ span: 10, offset: 2 }} xs={{ span: 10, offset: 2 }}>
+              <Col md={{ span: 3, offset: 0 }} sm={{ span: 10, offset: 2 }} xs={{ span: 10, offset: 2 }} style={{ textAlign: "center" }}>
                 <Link href={"docs"}>Documentación</Link>
               </Col>
             </Row>

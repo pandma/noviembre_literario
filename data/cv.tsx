@@ -19,7 +19,7 @@ const PEDRO: Profile = {
   img: "https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664626075/unnamed_affopy.jpg",
 };
 const CARLOS: Profile = {
-  name: "Carlos Alab Peinado",
+  name: "Carlos Alba Peinado",
   text: `Magíster de Literatura Española. Lleva una década diseminando arciprestes, cides y 
   quijotes por las orillas del Henares. Ha sido tutor severo de Cine y Teoría Literaria y 
   orientador peregrino en una decena de tesis sobre teatro. De su estancia en el scriptorium

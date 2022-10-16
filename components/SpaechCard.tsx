@@ -1,7 +1,7 @@
+import Image from "next/image";
 import { Row, Col, Container } from "react-bootstrap";
 import { Speach } from "../interface/interface";
 import styles from '../styles/Home.module.css';
-
 
 const SpeachCard = ({ date, title, owner }: Speach) => {
   return (
@@ -20,12 +20,16 @@ const SpeachCard = ({ date, title, owner }: Speach) => {
               height: "10vh",
               width: "10vh",
               borderRadius: "50%",
-              backgroundPosition: "center center",
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-              backgroundImage: `url(https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664644409/iconmonstr-microphone-13-240_1_tweub1.png)`,
             }}
-          />
+          >
+            <Image
+              src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1664644409/iconmonstr-microphone-13-240_1_tweub1.png"
+              alt="Picture of the author"
+              width={500}
+              height={500}
+            />
+          </div>
+
         </Col>
         <Col md={{ span: 9, offset: 0 }}
           xs={{ span: 11, offset: 1 }}
