@@ -205,6 +205,12 @@
   color: white;
 }
 
+#blueLink:hover {
+  color: rgb(27, 27, 165);
+  cursor: pointer;
+
+}
+
 @media screen and (max-width: 650px) {
   #navBrand {
     text-align: center !important;
