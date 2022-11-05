@@ -3,8 +3,8 @@ const PROGAM = {
   pdfName: "Noviembre Literario Folleto.pdf",
 };
 const FIRST = {
-  title: "Esto es un titulo",
-  pdfName: "Noviembre Literario Folleto.pdf",
+  title: "Cuentos de Canterbury",
+  pdfName: "cuentos_canterbury.pdf",
 };
 const SECOND = {
   title: "Esto es un titulo",

@@ -31,6 +31,7 @@ const DocsComponent = () => {
           md={{ span: 6, offset: 3 }}
           style={{
             padding: "2% 0% 2% 0%",
+            marginTop: "5%"
           }}
         >
           <DocsCard {...PROGAM} />
@@ -39,11 +40,12 @@ const DocsComponent = () => {
           md={{ span: 6, offset: 3 }}
           style={{
             padding: "2% 0% 2% 0%",
+            marginBottom: "10%"
           }}
         >
           <DocsCard {...FIRST} />
         </Col>
-        <Col
+        {/* <Col
           md={{ span: 6, offset: 3 }}
           style={{
             padding: "2% 0% 2% 0%",
@@ -66,7 +68,7 @@ const DocsComponent = () => {
           }}
         >
           <DocsCard {...FOURTH} />
-        </Col>
+        </Col> */}
       </Row>
     </Container>
   );
