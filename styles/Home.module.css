@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Playfair+Display+SC&display=swap");
 
-.main {
+#main {
   padding: 0;
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -9,7 +9,7 @@
   color: white;
 }
 
-.maina a {
+#main a {
   color: inherit;
   text-decoration: none;
 }

@@ -11,7 +11,7 @@ function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
   return (
-    <div className={styles.main}>
+    <div id={styles.main}>
       <Fragment>
         <Transition location={router.pathname}>
           <Component {...pageProps} />
