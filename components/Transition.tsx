@@ -12,7 +12,7 @@ type TransitionKind<RC> = {
 
 const TIMEOUT: number = 500;
 
-const getTransitionStyles = {
+const getTransitionStyles: any = {
     entering: {
         position: `absolute`,
         opacity: 0,
