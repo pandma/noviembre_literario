@@ -17,10 +17,6 @@
   animation: pulse 1.5s linear infinite;
 }
 
-/* .heart:hover {
-  animation: pulse 0.5s linear infinite;
-} */
-
 @keyframes pulse {
   0% {
     transform: scale(1);
