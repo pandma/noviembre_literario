@@ -27,7 +27,7 @@ const MesterComponet = () => {
               backgroundColor: "aliceblue",
             }}
           >
-            <h1>Mester de Algerabia</h1>
+            <h1>Mester de Algarabía</h1>
           </div>
         </Col>
       </Row>
