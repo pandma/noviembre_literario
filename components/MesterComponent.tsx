@@ -66,7 +66,7 @@ const MesterComponet = () => {
         }}
       >
         <Col md={{ span: 6, offset: 3 }}>
-          <h2 style={{ textAlign: "center" }}>Componenetes del grupo</h2>
+          <h2 style={{ textAlign: "center" }}>Componentes del grupo</h2>
         </Col>
         <Col
           md={{ span: 6, offset: 3 }}

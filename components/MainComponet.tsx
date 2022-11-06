@@ -17,12 +17,14 @@ const MainComponet = () => {
         <Col sm={{ span: 12, offset: 0 }} xs={{ span: 12, offset: 0 }} md={{ span: 6, offset: 3 }}>
           <div className={styles.redirect}>
             <Link href="https://extension.uned.es/actividad/28206">
-              <Button variant="warning">Inscríbirme</Button>
+              <Button variant="warning">Inscribirme</Button>
             </Link>
           </div>
           <MainTitleCard />
         </Col>
       </Row>
+      <br />
+      <br />
       <Row>
         <Col md={{ span: 6, offset: 3 }}>
           <h2 style={{ textAlign: "center" }}>NOVIEMBRE LITERARIO</h2>

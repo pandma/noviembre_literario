@@ -17,7 +17,7 @@ function SubBar() {
                   color: "white",
                 }}>
                   <Link href="https://extension.uned.es/actividad/28206">
-                    <Button variant="warning">Inscríbirme</Button>
+                    <Button variant="warning">Inscribirme</Button>
                   </Link>
                 </Navbar.Brand>
               </Col>
