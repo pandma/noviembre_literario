@@ -35,6 +35,22 @@ const SpeachComponet = () => {
       <Row
         style={{
           paddingTop: "3%",
+        }}>
+        <Col md={{ span: 6, offset: 3 }}>
+          <h2 style={{ textAlign: "center" }}>Lugar</h2>
+        </Col>
+        <br />
+        <Col md={{ span: 6, offset: 3 }}>
+          <h4 style={{ textAlign: "center" }}>
+            UNED Guadalajara-Sala de Medios
+          </h4>
+        </Col>
+
+      </Row>
+
+      <Row
+        style={{
+          paddingTop: "3%",
         }}
       >
         <Col md={{ span: 6, offset: 3 }}>

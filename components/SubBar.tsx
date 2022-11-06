@@ -37,21 +37,21 @@ function SubBar() {
               className={styles.subNavRow}
               style={{ justifyContent: "center" }}
             >
-              <Col md={{ span: 3, offset: 0 }} sm={{ span: 10, offset: 2 }} xs={{ span: 10, offset: 2 }} style={{ textAlign: "center" }}>
+              <Col md={{ span: 3, offset: 0 }} sm={{ span: 10, offset: 2 }} xs={{ span: 10, offset: 0 }} style={{ textAlign: "center" }}>
                 <Link href={"mester"}>
                   <span id={styles.blueLink}>
                     Mester de algarabía
                   </span>
                 </Link>
               </Col>
-              <Col md={{ span: 3, offset: 0 }} sm={{ span: 10, offset: 2 }} xs={{ span: 10, offset: 2 }} style={{ textAlign: "center" }}>
+              <Col md={{ span: 3, offset: 0 }} sm={{ span: 10, offset: 2 }} xs={{ span: 10, offset: 0 }} style={{ textAlign: "center" }}>
                 <Link href={"speach"}>
                   <span id={styles.blueLink}>
                     Charlas
                   </span>
                 </Link>
               </Col>
-              <Col md={{ span: 3, offset: 0 }} sm={{ span: 10, offset: 2 }} xs={{ span: 10, offset: 2 }} style={{ textAlign: "center" }}>
+              <Col md={{ span: 3, offset: 0 }} sm={{ span: 10, offset: 2 }} xs={{ span: 10, offset: 0 }} style={{ textAlign: "center" }}>
                 <Link href={"docs"}>
                   <span id={styles.blueLink}>
                     Documentación

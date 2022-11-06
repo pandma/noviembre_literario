@@ -7,12 +7,12 @@ const FIRST = {
   pdfName: "cuentos_canterbury.pdf",
 };
 const SECOND = {
-  title: "Esto es un titulo",
-  pdfName: "Noviembre Literario Folleto.pdf",
+  title: "El decamerón",
+  pdfName: "El decamerón.pdf",
 };
 const THIRD = {
-  title: "Esto es un titulo",
-  pdfName: "Noviembre Literario Folleto.pdf",
+  title: "boccaccio",
+  pdfName: "boccaccio.pdf",
 };
 const FOURTH = {
   title: "Esto es un titulo",

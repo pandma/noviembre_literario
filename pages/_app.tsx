@@ -10,7 +10,7 @@ import styles from '../styles/Home.module.css';
 function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
-  return (
+  return (<>
     <div id={styles.main}>
       <Fragment>
         <Transition location={router.pathname}>
@@ -18,6 +18,10 @@ function App({ Component, pageProps }: AppProps) {
         </Transition>
       </Fragment>
     </div>
+    <div id={styles.small}>
+      <Component {...pageProps} />
+    </div>
+  </>
   );
 }
 
