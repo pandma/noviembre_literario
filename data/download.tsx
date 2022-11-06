@@ -8,7 +8,7 @@ const FIRST = {
 };
 const SECOND = {
   title: "El decamerón",
-  pdfName: "El decamerón.pdf",
+  pdfName: "eldecameron.pdf",
 };
 const THIRD = {
   title: "boccaccio",
