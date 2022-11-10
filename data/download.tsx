@@ -7,7 +7,7 @@ const FIRST = {
   pdfName: "cuentos_canterbury.pdf",
 };
 const SECOND = {
-  title: "El decamerón",
+  title: "El Decamerón",
   pdfName: "eldecameron.pdf",
 };
 const THIRD = {

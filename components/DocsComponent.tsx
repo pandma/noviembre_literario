@@ -59,7 +59,6 @@ const DocsComponent = () => {
           style={{
             padding: "2% 0% 2% 0%",
             marginBottom: "10%"
-
           }}
         >
           <DocsCard {...THIRD} />
