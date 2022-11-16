@@ -209,11 +209,25 @@
   display: none;
 }
 
+
+#pptButon {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
 @media screen and (max-width: 650px) {
   #navBrand {
     text-align: center !important;
     font-size: 2em;
     color: white;
+  }
+
+  #pptButon {
+    display: block;
   }
 
   .TopPhone {

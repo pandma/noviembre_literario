@@ -8,6 +8,7 @@ export interface Speach {
   date: string;
   title: string;
   owner: string;
+  ppt: string;
 }
 
 export type Props = {

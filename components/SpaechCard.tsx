@@ -1,9 +1,22 @@
 import Image from "next/image";
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col, Container, Button } from "react-bootstrap";
 import { Speach } from "../interface/interface";
 import styles from '../styles/Home.module.css';
 
-const SpeachCard = ({ date, title, owner }: Speach) => {
+const SpeachCard = ({ date, title, owner, ppt }: Speach) => {
+  const handlePdf = (pdfName: string) => {
+    fetch(pdfName).then((response) => {
+      response.blob()
+        .then((blob) => {
+          const fileURL = window.URL.createObjectURL(blob);
+          let alink = document.createElement("a");
+          alink.href = fileURL;
+          alink.download = pdfName;
+          alink.click();
+          window.open(pdfName, '_blank');
+        });
+    });
+  };
   return (
     <Container>
       <Row>
@@ -38,10 +51,13 @@ const SpeachCard = ({ date, title, owner }: Speach) => {
           <hr />
           <p>{title} </p>
           <br />
-          <p>{owner} </p>
+          <div id={styles.pptButon} >
+            <p style={{ paddingTop: "1%" }}> {owner} </p>
+            {ppt && <Button variant="warning" onClick={() => handlePdf(ppt)}> ver presentación </Button>}
+          </div>
         </Col>
-      </Row>
-    </Container>
+      </Row >
+    </Container >
   );
 };
 
